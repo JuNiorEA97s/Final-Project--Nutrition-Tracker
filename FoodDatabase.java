@@ -8,7 +8,6 @@ public class FoodDatabase {
         foods.put("banana", new FoodItem("Banana", 105, 1, 27));
         foods.put("chicken", new FoodItem("Chicken Breast (100g)", 165, 31, 0));
         foods.put("rice", new FoodItem("White Rice (1 cup)", 200, 4, 45));
-        // Add more as needed
     }
 
     public FoodItem getFood(String name) {

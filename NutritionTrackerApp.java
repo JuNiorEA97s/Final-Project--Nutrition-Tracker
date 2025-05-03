@@ -12,7 +12,7 @@ public class NutritionTrackerApp {
         double weight = scanner.nextDouble();
         System.out.print("Enter your height (inches): ");
         double height = scanner.nextDouble();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine();
         System.out.print("Enter your activity level (Low/Medium/High): ");
         String activity = scanner.nextLine();
 
@@ -34,7 +34,7 @@ public class NutritionTrackerApp {
             System.out.println("5. Exit");
             System.out.print("Choice: ");
             int choice = scanner.nextInt();
-            scanner.nextLine(); // consume newline
+            scanner.nextLine(); 
 
             switch (choice) {
                 case 1:
@@ -46,7 +46,7 @@ public class NutritionTrackerApp {
                     int pro = scanner.nextInt();
                     System.out.print("Carbs (g): ");
                     int carb = scanner.nextInt();
-                    scanner.nextLine(); // consume newline
+                    scanner.nextLine(); 
                     log.addFood(new FoodItem(name, cal, pro, carb));
                     break;
 

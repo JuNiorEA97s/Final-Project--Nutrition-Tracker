@@ -16,7 +16,6 @@ public class UserProfile {
     }
 
     private void setDailyGoals() {
-        // Simple formula-based goal setting (can be adjusted)
         this.dailyCalorieGoal = (int) (weight * 15);
         this.dailyProteinGoal = (int) (weight * 1.0);
         this.dailyCarbGoal = (int) (weight * 2.0);
